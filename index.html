@@ -7,53 +7,66 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-blue-100">
+
+
 <!-- Navbar -->
 <nav class="navbar flex justify-between py-4 px-8 bg-blue-500">
-        <h1 class="text-2xl font-semibold">BMI Calculator</h1>
+        <h1 class="text-2xl font-semibold text-black-600">BMI Calculator</h1>
         <div class="relative inline-block text-left">
             <button id="seeMoreBtn" type="button" class="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
                 See More
-                <!-- Heroicon name: solid/chevron-down -->
+               
                 <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10 11.293l-4.146-4.147a1 1 0 10-1.414 1.414l5 5a1 1 0 001.414 0l5-5a1 1 0 00-1.414-1.414L10 11.293z" clip-rule="evenodd" />
                 </svg>
             </button>
             <div class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none hidden" id="dropdownMenu" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                 <div class="py-1" role="none">
-                    <a href="how_it_works.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-0">How It Works</a>
-                    <a href="bmi_range.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-1">BMI Range</a>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-0">How It Works</a>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-1">BMI Range</a>
                     <a href="about_me.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="menu-item-2">About Me</a>
                 </div>
             </div>
         </div>
     </nav>
 
+
+
     <!-- Welcome Section -->
     <div class="container mx-auto my-8">
-        <h2 class="text-3xl font-semibold text-center mb-8">Welcome to BMI Calculator</h2>
+        <h2 class="text-4xl font-bold text-center mb-16">Welcome to BMI Calculator</h2>
+
+
         <!-- BMI Calculator Section -->
-        <div class="max-w-md mx-auto p-6 bg-white rounded-lg shadow-md border border-green-500 mb-8">
-            <h3 class="text-xl font-semibold mb-4">BMI Calculator</h3>
-            <p class="mb-4">Calculate your BMI with our simple BMI Calculator.</p>
-            <a href="bmi_calculator.html" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded inline-block">Go to BMI Calculator</a>
+        <div class="max-w-lg mx-auto p-6 bg-white rounded-lg shadow-md border border-green-500 mb-20">
+            <center>
+         <!--   <h3 class="text-xl font-semibold mb-4">BMI Calculator</h3> -->
+            <p class=" text-xl   mb-8  ">Calculate your BMI with our simple BMI Calculator.</p>
+            <a href="bmi_calculator.html" class="mb-20 bg-blue-500 text-white font-semibold py-2 px-4 rounded inline-block">Go to BMI Calculator</a>
+            </center>
         </div>
 
-        <!-- Blog post suggestions -->
-        <h2 class="text-2xl font-semibold mb-4">Blog Posts</h2>
+
+        <!-- Blog post Section -->
+      <h2 class="text-4xl font-semibold mb-8 ">Blog Posts</h2>
+       <!-- <h2 class=" text-3xl bg-blue-300 mb-4 text-black font-semibold py-5 px-10 rounded inline-block ">Blog Posts</h2> -->
+      
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Blog post card example 1 -->
+           
+            <!-- Blog post 1 -->
             <div class="bg-white p-6 rounded-lg shadow-md">
                 <h3 class="text-xl font-semibold mb-4">Practical Ways to Achieve and Maintain a Healthy BMI</h3>
                 <p class="text-gray-700">Discover practical ways to achieve and maintain a healthy BMI in this insightful blog post.</p>
                 <a href="https://nowpatient.com/blog/practical-ways-to-achieve-and-maintain-a-healthy-bmi" target="_blank" rel="noopener noreferrer" class="text-blue-500 mt-4 inline-block">Read more</a>
             </div>
-            <!-- Blog post card example 2 -->
+
+            <!-- Blog post  2 -->
             <div class="bg-white p-6 rounded-lg shadow-md">
                 <h3 class="text-xl font-semibold mb-4">Eating Habits that Improve Health and Help with Weight Loss and BMI</h3>
                 <p class="text-gray-700">Learn about eating habits that improve health and help with weight loss and BMI in this informative blog post.</p>
                 <a href="https://www.center4research.org/eating-habits-improve-health-help-weight-loss-bmi/" target="_blank" rel="noopener noreferrer" class="text-blue-500 mt-4 inline-block">Read more</a>
             </div>
-            <!-- Add more blog post cards here -->
+            
         </div>
     </div>
 
